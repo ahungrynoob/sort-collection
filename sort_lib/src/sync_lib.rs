@@ -121,7 +121,7 @@ pub fn merge_sort<T: Copy + cmp::PartialOrd>(arr: &mut Vec<T>) {
 }
 
 fn merge_sort_recursion<T: Copy + cmp::PartialOrd>(arr: &mut Vec<T>, left: usize, right: usize) {
-    if left > right {
+    if left >= right {
         return;
     }
 
