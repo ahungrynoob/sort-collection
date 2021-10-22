@@ -1,12 +1,12 @@
 [package]
-name = "sort_middleware_lib"
+name = "async_run"
 version = "0.1.0"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-time = "0.3.3"
-sort_lib = { path = "../sort_lib" }
-random_data_lib = { path = "../random_data_lib" }
+sort_middleware_lib = { path ="../sort_middleware_lib" }
+random_data_lib = { path ="../random_data_lib" }
 async-std = "1.10.0"
+time = "0.3.3"
